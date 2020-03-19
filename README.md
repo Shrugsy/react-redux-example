@@ -42,7 +42,7 @@ ReactDOM.render(
 );
 ```
 
-**Actions** - Object with type of action and optional payload. Describes an *intention* to mutate the state   
+**Actions** - Object with type of action and optional payload. Describes an *intention* to mutate the state.
 ``` javascript
 // src/actions/index.js
 export const increment = (num) => {
@@ -61,7 +61,7 @@ export const decrement = (num) => {
 ```
 
 **Reducers** - '*A function that accepts an accumulation and a value and returns a new accumulation*'. Note: do not put API calls into reducers.
-E.g.
+
 ``` javascript
 // src/reducers/counter.js
 const initialState = 0;
